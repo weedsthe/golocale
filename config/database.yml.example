@@ -1,0 +1,15 @@
+development:
+  adapter: postgresql
+  database: golocale_development
+  pool: 5
+  timeout: 1000
+  username: postgres
+  password: postgres
+
+test:
+  adapter: postgresql
+  database: golocale_test
+  pool: 5
+  timeout: 1000
+  username: postgres
+  password: postgres
